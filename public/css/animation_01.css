@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+
+.outerbox{
+	width:800px;
+	height:100px;
+	margin:0 auto;
+	background:rgb(12,244,12);
+	position: relative;
+}
+
+.circle{
+	width:100px;
+	height:100px;
+	background:rgb(211,22,43);
+	position: absolute;
+	border-radius:50px;
+	margin-left: 400px;
+	animation: circle 0.5s linear infinite;
+
+}
+
+@keyframes circle{
+   from {background: black;}
+   to {background: white;}
+}

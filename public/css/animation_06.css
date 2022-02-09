@@ -1,0 +1,25 @@
+*{margin:0;padding:0;}
+
+.outerbox{
+	width:600px;
+	height:300px;	
+	position: relative;
+	left:150px;
+	border-bottom:5px solid black;	
+}
+
+
+.myPlane {
+	width:100px;
+	height:100px;	
+	position: absolute;
+	left:-15px;	
+	bottom:-36px;
+    animation: myPlane 8s linear forwards;
+}
+
+@keyframes myPlane {
+	0% {left:-15px; bottom:-36px;}
+	50% {left:200px; bottom:-36px;}
+	100% {left:1080px; bottom:250px;transform:skew(-15deg);}
+}

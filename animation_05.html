@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Animations</title>
+	<link rel="stylesheet" type="text/css" href="public/css/animation_05.css">
+	<link rel="stylesheet" type="text/css" href="site.css">
+	<script type="text/javascript" src="Any Js Link Here"></script>
+</head>
+<body>s
+
+ <h1 class="topic">Animation 05</h1>
+
+ <div class="outerbox">
+ </div>
+
+
+ <div class="wrapper">
+
+
+   <div class="box1">
+   	  
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 	<div class="animation_properties">
+ 		Animation Properties<br>
+
+		-------------------------<br>
+
+		Property <----------------> Description<br>
+
+		<strong style="color:black;">@keyframes:</strong>&nbsp; 	  				Specifies the animation code<br><br>
+
+		<strong style="color:black;">animation:</strong>&nbsp; 	        		A shorthand property for setting all the animation properties<br><br>
+
+		<strong style="color:black;">animation-name:</strong>&nbsp; 				Specifies the name of the @keyframes animation<br><br>
+
+		<strong style="color:black;">animation-duration:</strong>&nbsp; 			Specifies how long time an animation should take to complete one cycle<br><br>
+
+		<strong style="color:black;">animation-delay:</strong>&nbsp; 			Specifies a delay for the start of an animation<br><br>
+
+		<strong style="color:black;">animation-iteration-count:</strong>&nbsp; 	Specifies the number of times an animation should be played<br><br>
+
+		<strong style="color:black;">animation-direction:</strong>&nbsp; 		Specifies whether an animation should be played forwards, backwards or in alternate, cycles - normal,reverse,alternate,alternate-reverse,initial,inherit<br><br>
+
+		<strong style="color:black;">animation-timing-function:</strong>&nbsp; 	Specifies the speed curve of the animation - linear,ease,ease-in,ease-out,ease-in-out,step-start,step-end,<br><br>
+
+		<strong style="color:black;">animation-fill-mode:</strong>&nbsp; 		Specifies a style for the element when the animation is not playing (before it sarts, after it ends, or both) - forwards, backwards, none, both, initial, inherit<br>
+
+		<strong style="color:black;">animation-play-state:</strong>&nbsp; 		Specifies whether the animation is running or paused<br><br>
+
+		--------------------------------------------------------------------------------------------
+	</div>
+ 	
+
+           <!-- Smily -->
+	<div class="">
+	   	<img class="smily_one" src="public/images/smily01.png">	
+	</div>
+
+    
+
+	<img class="aeroplane" src="public/images/aeroplane03.png">	
+
+
+
+
+
+	<div class="mess_box">
+		<span class="mess">You are watching css3 animations</span>
+	</div>
+
+		    <!-- Animation Text -->
+			<div class="animationText">		   	  
+			   	  <div class="animationstxt">Your are watching css3 animation</div>
+			</div>	
+
+	<!-- Bottom Text -->		
+	<div class="courses">
+		<span class="course">Web Development & Web Designing: HTML, HTML5, CSS, CSS3, Javascript, jquery, vue js, angular js, react js, express js, node js, typescript, core php, cakephp, codeigniter, laravel, zend, 
+		laminas, mysql, RDMS, mongoDB, sqlite, wordpress, python, django, flash, ruby, ruby on rails etc.</span>
+	</div>
+
+
+</div>
+
+</body>
+</html>
+
+
+
+
+<style>
+
+ /* Aeroplane */
+	.aeroplane{
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		left:-15px;bottom:36px;
+		background: transparent;
+		animation: airo 10s  linear forwards;
+	}
+
+	@keyframes airo {	
+
+	   0%{left:-500px;bottom: 30px;transform: rotate(10deg);}
+	   50%{left:300px;bottom:50px;transform: rotate(-10deg);}	   
+	   100%{left:1240px;bottom:530px;transform: rotate(-5deg);}
+
+	}
+
+
+</style>

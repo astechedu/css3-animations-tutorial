@@ -1,0 +1,30 @@
+*{margin:0;padding:0;}
+
+.outerbox{
+	width:600px;
+	height:300px;	
+	position: relative;
+	left:150px;
+	border-bottom:5px solid black;	
+}
+
+.box1 {
+	width:100px;
+	height:100px;
+	background:green;
+	position:absolute;
+	left:150px;
+	top:256px;
+    animation-name:myDiv;
+    animation-duration:5s;
+
+	
+	animation-play-state:running;
+   
+
+}
+
+@keyframes myDiv {
+	from {left:150px;}
+	to {left:500px;}
+}
